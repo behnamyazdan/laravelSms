@@ -19,13 +19,13 @@ Now, update Composer:
 composer update
 ```
 
-Once composer is finished, you need to add the service provider. Open app/config/app.php, and add a new item to the providers array.
+Once composer is finished, you need to add the service provider. Open ```app/config/app.php```, and add a new item to the providers array.
 
 ```
 'Livana\Sms\SmsServiceProvider',
 ```
 
-Next, add a Facade for more convenient usage. In app/config/app.php add the following line to the aliases array:
+Next, add a Facade for more convenient usage. In ```app/config/app.php``` add the following line to the aliases array:
 
 ```
 'Sms' => 'Livana\Sms\Facades\Sms',
