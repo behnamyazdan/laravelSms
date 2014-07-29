@@ -1,6 +1,8 @@
 {
     "name": "livana/sms",
     "description": "",
+    "description": "package for send sms in laravel (published for parssms24.ir)",
+    "license": "MIT",
     "authors": [
         {
             "name": "livana",
