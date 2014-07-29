@@ -1,11 +1,11 @@
 laravelSms
 ==========
 
-package for send sms in laravel (published for parssms24.ir) this package only work for iranian mobile operator
+package for send sms in laravel (published for [parssms24.ir](http://parssms24.ir)) this package only work for iranian mobile operator
 
 installation
 ------------
-For install this package Edit your project's composer.json file to require livana/sms
+For install this package Edit your project's ```composer.json``` file to require livana/sms
 
 ```php
 "require": {
