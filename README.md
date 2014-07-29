@@ -1,7 +1,7 @@
 laravelSms
 ==========
 
-package for send sms in laravel (published for [parssms24.ir](http://parssms24.ir)) this package only work for iranian mobile operator
+package for send sms with laravel (published for [parssms24.ir](http://parssms24.ir)) this package only work for iranian mobile operator
 
 installation
 ------------
