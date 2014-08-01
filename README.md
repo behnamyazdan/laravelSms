@@ -32,6 +32,8 @@ for change username, password and other configuration change ```app/config/packa
 
 Usage
 -----
+for use this package, please register on [parssms24.ir](http://parssms24.ir)
+
 ### Send Message
 ```php
 Sms::send('9123456789', 'text message'); // send message for a person
