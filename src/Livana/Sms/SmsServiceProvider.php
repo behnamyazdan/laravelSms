@@ -1,4 +1,5 @@
-<?php namespace Livana\Sms;
+<?php
+namespace Livana\Sms;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
@@ -21,7 +22,7 @@ class SmsServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('livan/sms');
+		$this->package('livana/sms');
 	}
 
 
