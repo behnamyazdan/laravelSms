@@ -12,15 +12,14 @@ class Sms {
 		$this->client = $client;
 	}
 
-	public function send(array $data)
+	public function send($to, $text)
 	{
 		$param = $this->config;
-		extract($data);
 		
 		!is_array($to) ? $to = array($to) : false;
 
 		$param['to']   = $to;
-		$param['text'] = iconv('UTF-8', 'UTF-8//TRANSLIT', $text );
+		$param['text'] = iconv('UTF-8', 'UTF-8//TRANSLIT', $text);
 		try {
 			return $this->client->SendSms($param)->SendSmsResult;
 		} catch (Exception $ex) {
